@@ -131,12 +131,91 @@ body{
   text-align: center;
 }
 .skillTitle{
-  font-size: 50px;
+  font-size: 30px;
   font-weight: bold;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 .skillDesc{
-  font-size: 20px;
+
+  font-size: 1rem;
   font-weight: bold;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
+.skillList{
+  margin: 5px;
+  width: 100vw;
+  max-width: 80%;
+  text-align: left;
+
+}
+.skillbar{
+  display: flex;
+  align-items: center;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background: rgb(50, 50, 50);
+}
+.skillImg{
+  height: 2rem;
+  width: 2rem;
+  object-fit: cover;
+  margin-right: 1rem;
+}
+.skillText>p {
+  font-size: 15px;
+  font-weight: 200;
+  
+}
+@media screen and (max-width: 650px){
+  .skillDesc{
+    font-size: 0.8rem;
+  }
+  .skillTitle{
+    font-size: 20px;
+  }
+  .skillText>p {
+    font-size: 10px;
+  }
+  .skillText>h5 {
+    font-size: 15px;
+  }
+}
+ .work{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 1rem;
+ min-height: calc(100vh - 4rem);
+  width: 100vw;
+  max-width: 65rem;
+  margin: 0 auto;
+  overflow: hidden;
+ }
+ .workTitle{
+  font-size: 2rem;
+  margin: 1rem 0;
+ }
+ .workDesc{
+  font-weight: 300;
+  font-size: 1rem;
+ }
+ .workImgs{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100vm;
+  max-width: 65rem;
+
+ }
+
+ .workImg{
+  height: 20rem;
+  object-fit: cover;
+  margin: 1rem;
+  border-radius: 0.5rem;
+ 
+ }
