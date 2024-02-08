@@ -1,6 +1,6 @@
 import React from 'react';
 import {Link} from 'react-scroll';
-import Ulogo from '../Images/Logo.png';
+import Ulogo from '../Images/logo.png';
 
 const Navbar = () => {
   return (
