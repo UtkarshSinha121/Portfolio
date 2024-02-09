@@ -316,5 +316,42 @@ body{
   }
  }
  .active{
-  color: yellow
+  color: yellow;
  }
+ .navMenu{
+  position: absolute;
+  top: 5rem;
+  right: 2rem;
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+  height: fit-content;
+  min-width: 15rem;
+  background: rgb(50, 50, 50);
+  border-radius: 1rem;
+}
+.listItem{
+  color: white ;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  background: rgb(30, 30, 30);
+
+}
+.mobMenu{
+  display: none;
+  object-fit: cover;
+  height: 2rem;
+}
+@media screen and (max-width:720px){
+  .mobMenu{
+    display:flex;
+
+  }
+  .desktopMenu{
+    display: none;
+  }
+  .desktopMenuBtn{
+    display: none;
+  }
+}
