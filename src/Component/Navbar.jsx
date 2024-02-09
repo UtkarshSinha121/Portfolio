@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import {Link} from 'react-scroll';
-import Ulogo from '../Images/logo.png';
+import logo from '../Images/logo.png';
 import Menu from '../Images/menu.png';
 
 const Navbar = () => {
@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
    <nav className="navbar">
     <div>
-    <img src={Ulogo} alt="logo" className='logo'/>
+    <img src={logo} alt="logo" className='logo'/>
     </div>
     <div className="desktopMenu" >
       <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-100} duration={100} className="desktopMenuList" >Home</Link>
